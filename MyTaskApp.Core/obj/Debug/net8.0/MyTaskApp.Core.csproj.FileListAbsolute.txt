@@ -1,0 +1,11 @@
+C:\edu\studies\MyTaskApp\MyTaskApp.Core\bin\Debug\net8.0\MyTaskApp.Core.deps.json
+C:\edu\studies\MyTaskApp\MyTaskApp.Core\bin\Debug\net8.0\MyTaskApp.Core.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Core\bin\Debug\net8.0\MyTaskApp.Core.pdb
+C:\edu\studies\MyTaskApp\MyTaskApp.Core\obj\Debug\net8.0\MyTaskApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\edu\studies\MyTaskApp\MyTaskApp.Core\obj\Debug\net8.0\MyTaskApp.Core.AssemblyInfoInputs.cache
+C:\edu\studies\MyTaskApp\MyTaskApp.Core\obj\Debug\net8.0\MyTaskApp.Core.AssemblyInfo.cs
+C:\edu\studies\MyTaskApp\MyTaskApp.Core\obj\Debug\net8.0\MyTaskApp.Core.csproj.CoreCompileInputs.cache
+C:\edu\studies\MyTaskApp\MyTaskApp.Core\obj\Debug\net8.0\MyTaskApp.Core.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Core\obj\Debug\net8.0\refint\MyTaskApp.Core.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Core\obj\Debug\net8.0\MyTaskApp.Core.pdb
+C:\edu\studies\MyTaskApp\MyTaskApp.Core\obj\Debug\net8.0\ref\MyTaskApp.Core.dll

@@ -1,0 +1,17 @@
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\bin\Debug\net8.0\MyTaskApp.Infrastructure.deps.json
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\bin\Debug\net8.0\MyTaskApp.Infrastructure.runtimeconfig.json
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\bin\Debug\net8.0\MyTaskApp.Infrastructure.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\bin\Debug\net8.0\MyTaskApp.Infrastructure.pdb
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\obj\Debug\net8.0\MyTaskApp.Infrastructure.csproj.AssemblyReference.cache
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\obj\Debug\net8.0\MyTaskApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\obj\Debug\net8.0\MyTaskApp.Infrastructure.AssemblyInfoInputs.cache
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\obj\Debug\net8.0\MyTaskApp.Infrastructure.AssemblyInfo.cs
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\obj\Debug\net8.0\MyTaskApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\obj\Debug\net8.0\MyTaskApp.Infrastructure.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\obj\Debug\net8.0\refint\MyTaskApp.Infrastructure.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\obj\Debug\net8.0\MyTaskApp.Infrastructure.pdb
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\obj\Debug\net8.0\MyTaskApp.Infrastructure.genruntimeconfig.cache
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\obj\Debug\net8.0\ref\MyTaskApp.Infrastructure.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\bin\Debug\net8.0\MyTaskApp.Core.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\bin\Debug\net8.0\MyTaskApp.Core.pdb
+C:\edu\studies\MyTaskApp\MyTaskApp.Infrastructure\obj\Debug\net8.0\MyTaskAp.D2F6FECB.Up2Date
