@@ -44,7 +44,7 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
                             IdUser = u.Id,
                             UserName = u.FullName,
                             CreatedAt = p.CreatedAt,
-                            Image = "",
+                            Image = p.ImageUrl,
                             Level = (int)p.Level,
                             Tasks = p.Tasks
                                 .Select(t => new TaskDTO

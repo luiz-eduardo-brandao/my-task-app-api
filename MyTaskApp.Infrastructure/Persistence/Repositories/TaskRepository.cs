@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MyTaskApp.Core.DTOs;
 using MyTaskApp.Core.Entities;
 using MyTaskApp.Core.Repositories;
 
@@ -31,6 +32,29 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
             var task = await _context
                 .Tasks
                 .SingleOrDefaultAsync(u => u.Id == id);
+
+            return task;
+        }
+
+        public async Task<List<TaskDTO>> GetByUserIdAsync(int idUser)
+        {
+            var task = await _context
+                .Tasks
+                .Include(t => t.Project)
+                .Select(t => new TaskDTO
+                {
+                    Id = t.Id,
+                    Title = t.Title,
+                    Description = t.Description,
+                    IdUser = t.IdUser,
+                    IdProject = t.IdProject,
+                    ProjectTitle = t.Project.Title,
+                    TimeConsumed = "",
+                    StartedAt = t.StartedAt,
+                    FinishedAt = t.FinishedAt
+                })
+                .Where(u => u.IdUser == idUser)
+                .ToListAsync();
 
             return task;
         }

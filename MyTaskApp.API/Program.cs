@@ -8,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddCors();
+
 builder.Services.AddControllers();
    // .AddJsonOptions(x =>
    //x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
@@ -25,6 +27,7 @@ builder.Services.AddDbContext<MyTaskAppDbContext>(options =>
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<IMenuRepository, MenuRepository>();
 
 var app = builder.Build();
 
@@ -38,6 +41,12 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors(x => x
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .SetIsOriginAllowed(origin => true) // allow any origin
+    .AllowCredentials()); // allow credentials
 
 app.MapControllers();
 

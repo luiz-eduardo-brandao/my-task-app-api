@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MyTaskApp.API.Models;
 using MyTaskApp.Core.Entities;
 using MyTaskApp.Core.Repositories;
@@ -29,6 +28,14 @@ namespace MyTaskApp.API.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _repository.GetByIdAsync(id);
+
+            return Ok(result);
+        }
+
+        [HttpGet("user/{idUser}")]
+        public async Task<IActionResult> GetByUSerId(int idUser)
+        {
+            var result = await _repository.GetByUserIdAsync(idUser);
 
             return Ok(result);
         }

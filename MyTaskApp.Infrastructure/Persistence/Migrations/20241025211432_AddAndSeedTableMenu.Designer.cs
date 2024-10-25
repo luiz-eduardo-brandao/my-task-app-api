@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyTaskApp.Infrastructure.Persistence;
 
@@ -11,9 +12,11 @@ using MyTaskApp.Infrastructure.Persistence;
 namespace MyTaskApp.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(MyTaskAppDbContext))]
-    partial class MyTaskAppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241025211432_AddAndSeedTableMenu")]
+    partial class AddAndSeedTableMenu
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
