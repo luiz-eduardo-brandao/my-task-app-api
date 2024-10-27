@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyTaskApp.API.Models;
+using MyTaskApp.Application.InputModels;
+using MyTaskApp.Application.Interfaces;
 using MyTaskApp.Core.Entities;
 using MyTaskApp.Core.Repositories;
 
@@ -9,10 +11,12 @@ namespace MyTaskApp.API.Controllers
     [ApiController]
     public class ProjectsController : ControllerBase
     {
+        private readonly IProjectService _projectService;
         private readonly IProjectRepository _repository;
 
-        public ProjectsController(IProjectRepository repository)
+        public ProjectsController(IProjectService projectService, IProjectRepository repository)
         {
+            _projectService = projectService;
             _repository = repository;
         }
 
@@ -43,6 +47,36 @@ namespace MyTaskApp.API.Controllers
                 return BadRequest();
 
             return CreatedAtAction(nameof(GetById), new { id = idProject }, inputModel);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Put([FromBody] UpdateProjectInputModel inputModel)
+        {
+            try
+            {
+                await _projectService.UpdateAsync(inputModel);
+
+                return CreatedAtAction(nameof(GetById), new { id = inputModel.Id }, inputModel);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                await _projectService.DeleteAsync(id);
+
+                return NoContent();
+            }
+            catch (Exception ex) 
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

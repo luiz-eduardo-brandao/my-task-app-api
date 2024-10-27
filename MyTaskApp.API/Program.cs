@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using MyTaskApp.Application.Interfaces;
+using MyTaskApp.Application.Services;
 using MyTaskApp.Core.Repositories;
 using MyTaskApp.Infrastructure.Persistence;
 using MyTaskApp.Infrastructure.Persistence.Repositories;
@@ -28,6 +30,9 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<IMenuRepository, MenuRepository>();
+
+builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<ITaskService, TaskService>();
 
 var app = builder.Build();
 

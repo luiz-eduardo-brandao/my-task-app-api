@@ -32,7 +32,7 @@ namespace MyTaskApp.Core.Entities
 
         public void Start()
         {
-            if (Status == TaskStatusEnum.Created)
+            if (Status == TaskStatusEnum.Created && StartedAt is null)
             {
                 Status = TaskStatusEnum.InProgress;
                 StartedAt = DateTime.UtcNow;
@@ -41,7 +41,7 @@ namespace MyTaskApp.Core.Entities
 
         public void Finish()
         {
-            if (Status == TaskStatusEnum.InProgress)
+            if (Status == TaskStatusEnum.InProgress && FinishedAt is null)
             {
                 Status = TaskStatusEnum.Finished;
                 FinishedAt = DateTime.UtcNow;

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "7jSu9NUDl8g=",
+  "success": true,
+  "projectFilePath": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\MyTaskApp.Application.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.signa.net.br/webapi/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

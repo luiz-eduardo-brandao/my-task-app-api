@@ -149,3 +149,5 @@ C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MyTaskApp.Core.dll
 C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MyTaskApp.Infrastructure.dll
 C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MyTaskApp.Core.pdb
 C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MyTaskApp.Infrastructure.pdb
+C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MyTaskApp.Application.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MyTaskApp.Application.pdb

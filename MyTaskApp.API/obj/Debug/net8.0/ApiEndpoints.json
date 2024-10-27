@@ -37,9 +37,41 @@
   },
   {
     "ContainingType": "MyTaskApp.API.Controllers.ProjectsController",
+    "Method": "Put",
+    "RelativePath": "api/projects",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inputModel",
+        "Type": "MyTaskApp.Application.InputModels.UpdateProjectInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyTaskApp.API.Controllers.ProjectsController",
     "Method": "GetById",
     "RelativePath": "api/projects/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyTaskApp.API.Controllers.ProjectsController",
+    "Method": "Delete",
+    "RelativePath": "api/projects/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -87,6 +119,38 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyTaskApp.API.Controllers.TasksController",
+    "Method": "Finish",
+    "RelativePath": "api/tasks/finish/{idTask}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTask",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyTaskApp.API.Controllers.TasksController",
+    "Method": "Start",
+    "RelativePath": "api/tasks/start/{idTask}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTask",
         "Type": "System.Int32",
         "IsRequired": true
       }

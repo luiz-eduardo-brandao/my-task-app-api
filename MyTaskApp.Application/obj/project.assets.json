@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "MyTaskApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MyTaskApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyTaskApp.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyTaskApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../MyTaskApp.Core/MyTaskApp.Core.csproj",
+      "msbuildProject": "../MyTaskApp.Core/MyTaskApp.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MyTaskApp.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Luiz Brandão\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\MyTaskApp.Application.csproj",
+      "projectName": "MyTaskApp.Application",
+      "projectPath": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\MyTaskApp.Application.csproj",
+      "packagesPath": "C:\\Users\\Luiz Brandão\\.nuget\\packages\\",
+      "outputPath": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Luiz Brandão\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "http://nuget.signa.net.br/webapi/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\MyTaskApp.Core.csproj": {
+              "projectPath": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\MyTaskApp.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.signa.net.br/webapi/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

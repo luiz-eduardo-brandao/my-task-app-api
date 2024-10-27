@@ -1,0 +1,15 @@
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\bin\Debug\net8.0\MyTaskApp.Application.deps.json
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\bin\Debug\net8.0\MyTaskApp.Application.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\bin\Debug\net8.0\MyTaskApp.Application.pdb
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\bin\Debug\net8.0\MyTaskApp.Core.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\bin\Debug\net8.0\MyTaskApp.Core.pdb
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\obj\Debug\net8.0\MyTaskApp.Application.csproj.AssemblyReference.cache
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\obj\Debug\net8.0\MyTaskApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\obj\Debug\net8.0\MyTaskApp.Application.AssemblyInfoInputs.cache
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\obj\Debug\net8.0\MyTaskApp.Application.AssemblyInfo.cs
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\obj\Debug\net8.0\MyTaskApp.Application.csproj.CoreCompileInputs.cache
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\obj\Debug\net8.0\MyTaskAp.752F742B.Up2Date
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\obj\Debug\net8.0\MyTaskApp.Application.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\obj\Debug\net8.0\refint\MyTaskApp.Application.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\obj\Debug\net8.0\MyTaskApp.Application.pdb
+C:\edu\studies\MyTaskApp\MyTaskApp.Application\obj\Debug\net8.0\ref\MyTaskApp.Application.dll

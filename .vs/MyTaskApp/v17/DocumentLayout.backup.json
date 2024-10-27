@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "C:\\edu\\studies\\MyTaskApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5783D57D-AA00-499C-9A9C-AA183EFD8011}|MyTaskApp.Core\\MyTaskApp.Core.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.core\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5783D57D-AA00-499C-9A9C-AA183EFD8011}|MyTaskApp.Core\\MyTaskApp.Core.csproj|solutionrelative:mytaskapp.core\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.infrastructure\\persistence\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|solutionrelative:mytaskapp.infrastructure\\persistence\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.infrastructure\\persistence\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|solutionrelative:mytaskapp.infrastructure\\persistence\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EAE6858-17C4-4B7C-8BAD-BF3953C95E4A}|MyTaskApp.Application\\MyTaskApp.Application.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EAE6858-17C4-4B7C-8BAD-BF3953C95E4A}|MyTaskApp.Application\\MyTaskApp.Application.csproj|solutionrelative:mytaskapp.application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2078F8B5-4CAB-4D24-9185-2A3F9C580030}|MyTaskApp.API\\MyTaskApp.API.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.api\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2078F8B5-4CAB-4D24-9185-2A3F9C580030}|MyTaskApp.API\\MyTaskApp.API.csproj|solutionrelative:mytaskapp.api\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2078F8B5-4CAB-4D24-9185-2A3F9C580030}|MyTaskApp.API\\MyTaskApp.API.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2078F8B5-4CAB-4D24-9185-2A3F9C580030}|MyTaskApp.API\\MyTaskApp.API.csproj|solutionrelative:mytaskapp.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.infrastructure\\persistence\\configurations\\menuconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|solutionrelative:mytaskapp.infrastructure\\persistence\\configurations\\menuconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2078F8B5-4CAB-4D24-9185-2A3F9C580030}|MyTaskApp.API\\MyTaskApp.API.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2078F8B5-4CAB-4D24-9185-2A3F9C580030}|MyTaskApp.API\\MyTaskApp.API.csproj|solutionrelative:mytaskapp.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.infrastructure\\persistence\\mytaskappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|solutionrelative:mytaskapp.infrastructure\\persistence\\mytaskappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EAE6858-17C4-4B7C-8BAD-BF3953C95E4A}|MyTaskApp.Application\\MyTaskApp.Application.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.application\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EAE6858-17C4-4B7C-8BAD-BF3953C95E4A}|MyTaskApp.Application\\MyTaskApp.Application.csproj|solutionrelative:mytaskapp.application\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2078F8B5-4CAB-4D24-9185-2A3F9C580030}|MyTaskApp.API\\MyTaskApp.API.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2078F8B5-4CAB-4D24-9185-2A3F9C580030}|MyTaskApp.API\\MyTaskApp.API.csproj|solutionrelative:mytaskapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5783D57D-AA00-499C-9A9C-AA183EFD8011}|MyTaskApp.Core\\MyTaskApp.Core.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.core\\repositories\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5783D57D-AA00-499C-9A9C-AA183EFD8011}|MyTaskApp.Core\\MyTaskApp.Core.csproj|solutionrelative:mytaskapp.core\\repositories\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5783D57D-AA00-499C-9A9C-AA183EFD8011}|MyTaskApp.Core\\MyTaskApp.Core.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.core\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5783D57D-AA00-499C-9A9C-AA183EFD8011}|MyTaskApp.Core\\MyTaskApp.Core.csproj|solutionrelative:mytaskapp.core\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.infrastructure\\persistence\\configurations\\projectconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|solutionrelative:mytaskapp.infrastructure\\persistence\\configurations\\projectconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5783D57D-AA00-499C-9A9C-AA183EFD8011}|MyTaskApp.Core\\MyTaskApp.Core.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.core\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5783D57D-AA00-499C-9A9C-AA183EFD8011}|MyTaskApp.Core\\MyTaskApp.Core.csproj|solutionrelative:mytaskapp.core\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.infrastructure\\persistence\\configurations\\projecttaskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|solutionrelative:mytaskapp.infrastructure\\persistence\\configurations\\projecttaskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EAE6858-17C4-4B7C-8BAD-BF3953C95E4A}|MyTaskApp.Application\\MyTaskApp.Application.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EAE6858-17C4-4B7C-8BAD-BF3953C95E4A}|MyTaskApp.Application\\MyTaskApp.Application.csproj|solutionrelative:mytaskapp.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.infrastructure\\persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B1D287-7339-492A-9546-3D5AC400B4FD}|MyTaskApp.Infrastructure\\MyTaskApp.Infrastructure.csproj|solutionrelative:mytaskapp.infrastructure\\persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EAE6858-17C4-4B7C-8BAD-BF3953C95E4A}|MyTaskApp.Application\\MyTaskApp.Application.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.application\\inputmodels\\updateprojectinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EAE6858-17C4-4B7C-8BAD-BF3953C95E4A}|MyTaskApp.Application\\MyTaskApp.Application.csproj|solutionrelative:mytaskapp.application\\inputmodels\\updateprojectinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5783D57D-AA00-499C-9A9C-AA183EFD8011}|MyTaskApp.Core\\MyTaskApp.Core.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.core\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5783D57D-AA00-499C-9A9C-AA183EFD8011}|MyTaskApp.Core\\MyTaskApp.Core.csproj|solutionrelative:mytaskapp.core\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EAE6858-17C4-4B7C-8BAD-BF3953C95E4A}|MyTaskApp.Application\\MyTaskApp.Application.csproj|c:\\edu\\studies\\mytaskapp\\mytaskapp.application\\interfaces\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EAE6858-17C4-4B7C-8BAD-BF3953C95E4A}|MyTaskApp.Application\\MyTaskApp.Application.csproj|solutionrelative:mytaskapp.application\\interfaces\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +58,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.API\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "MyTaskApp.API\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.API\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "MyTaskApp.API\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwEQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T00:08:58.997Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "MyTaskApp.Infrastructure\\Persistence\\Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "MyTaskApp.Infrastructure\\Persistence\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAIA1wD8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:29:57.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.API\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "MyTaskApp.API\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.API\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "MyTaskApp.API\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAiwD8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:23:10.144Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -60,126 +108,113 @@
               "RelativeDocumentMoniker": "MyTaskApp.API\\Program.cs",
               "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.API\\Program.cs",
               "RelativeToolTip": "MyTaskApp.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T21:07:15.147Z",
+              "WhenOpened": "2024-10-27T19:23:03.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MenuRepository.cs",
-              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Repositories\\MenuRepository.cs",
-              "RelativeDocumentMoniker": "MyTaskApp.Infrastructure\\Persistence\\Repositories\\MenuRepository.cs",
-              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Repositories\\MenuRepository.cs",
-              "RelativeToolTip": "MyTaskApp.Infrastructure\\Persistence\\Repositories\\MenuRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "MyTaskApp.Application\\Services\\TaskService.cs",
+              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\Services\\TaskService.cs",
+              "RelativeToolTip": "MyTaskApp.Application\\Services\\TaskService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA9wBQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T21:05:53.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IMenuRepository.cs",
-              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\Repositories\\IMenuRepository.cs",
-              "RelativeDocumentMoniker": "MyTaskApp.Core\\Repositories\\IMenuRepository.cs",
-              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\Repositories\\IMenuRepository.cs",
-              "RelativeToolTip": "MyTaskApp.Core\\Repositories\\IMenuRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T21:05:15.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenusController.cs",
-              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.API\\Controllers\\MenusController.cs",
-              "RelativeDocumentMoniker": "MyTaskApp.API\\Controllers\\MenusController.cs",
-              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.API\\Controllers\\MenusController.cs",
-              "RelativeToolTip": "MyTaskApp.API\\Controllers\\MenusController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T21:04:58.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProjectTaskConfiguration.cs",
-              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Configurations\\ProjectTaskConfiguration.cs",
-              "RelativeDocumentMoniker": "MyTaskApp.Infrastructure\\Persistence\\Configurations\\ProjectTaskConfiguration.cs",
-              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Configurations\\ProjectTaskConfiguration.cs",
-              "RelativeToolTip": "MyTaskApp.Infrastructure\\Persistence\\Configurations\\ProjectTaskConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T21:01:29.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProjectConfiguration.cs",
-              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Configurations\\ProjectConfiguration.cs",
-              "RelativeDocumentMoniker": "MyTaskApp.Infrastructure\\Persistence\\Configurations\\ProjectConfiguration.cs",
-              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Configurations\\ProjectConfiguration.cs",
-              "RelativeToolTip": "MyTaskApp.Infrastructure\\Persistence\\Configurations\\ProjectConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T21:01:28.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuConfiguration.cs",
-              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Configurations\\MenuConfiguration.cs",
-              "RelativeDocumentMoniker": "MyTaskApp.Infrastructure\\Persistence\\Configurations\\MenuConfiguration.cs",
-              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Configurations\\MenuConfiguration.cs",
-              "RelativeToolTip": "MyTaskApp.Infrastructure\\Persistence\\Configurations\\MenuConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T20:55:07.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\Entities\\Menu.cs",
-              "RelativeDocumentMoniker": "MyTaskApp.Core\\Entities\\Menu.cs",
-              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\Entities\\Menu.cs",
-              "RelativeToolTip": "MyTaskApp.Core\\Entities\\Menu.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T20:52:30.947Z",
+              "WhenOpened": "2024-10-27T19:21:19.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MyTaskAppDbContext.cs",
-              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\MyTaskAppDbContext.cs",
-              "RelativeDocumentMoniker": "MyTaskApp.Infrastructure\\Persistence\\MyTaskAppDbContext.cs",
-              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\MyTaskAppDbContext.cs",
-              "RelativeToolTip": "MyTaskApp.Infrastructure\\Persistence\\MyTaskAppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\Interfaces\\ITaskService.cs",
+              "RelativeDocumentMoniker": "MyTaskApp.Application\\Interfaces\\ITaskService.cs",
+              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\Interfaces\\ITaskService.cs",
+              "RelativeToolTip": "MyTaskApp.Application\\Interfaces\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T20:54:48.56Z",
+              "WhenOpened": "2024-10-27T19:20:48.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\Repositories\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "MyTaskApp.Core\\Repositories\\ITaskRepository.cs",
+              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\Repositories\\ITaskRepository.cs",
+              "RelativeToolTip": "MyTaskApp.Core\\Repositories\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:20:12.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectTask.cs",
+              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\Entities\\ProjectTask.cs",
+              "RelativeDocumentMoniker": "MyTaskApp.Core\\Entities\\ProjectTask.cs",
+              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\Entities\\ProjectTask.cs",
+              "RelativeToolTip": "MyTaskApp.Core\\Entities\\ProjectTask.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAEwCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:20:01.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "MyTaskApp.Application\\Services\\ProjectService.cs",
+              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\Services\\ProjectService.cs",
+              "RelativeToolTip": "MyTaskApp.Application\\Services\\ProjectService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwCAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T00:10:18.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\Interfaces\\IProjectService.cs",
+              "RelativeDocumentMoniker": "MyTaskApp.Application\\Interfaces\\IProjectService.cs",
+              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\Interfaces\\IProjectService.cs",
+              "RelativeToolTip": "MyTaskApp.Application\\Interfaces\\IProjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T00:09:53.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "MyTaskApp.Core\\Entities\\Project.cs",
+              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Core\\Entities\\Project.cs",
+              "RelativeToolTip": "MyTaskApp.Core\\Entities\\Project.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T00:09:09.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "MyTaskApp.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "MyTaskApp.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Title": "UpdateProjectInputModel.cs",
+              "DocumentMoniker": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\InputModels\\UpdateProjectInputModel.cs",
+              "RelativeDocumentMoniker": "MyTaskApp.Application\\InputModels\\UpdateProjectInputModel.cs",
+              "ToolTip": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\InputModels\\UpdateProjectInputModel.cs",
+              "RelativeToolTip": "MyTaskApp.Application\\InputModels\\UpdateProjectInputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T21:01:30.264Z",
+              "WhenOpened": "2024-10-27T00:09:03.076Z",
               "EditorCaption": ""
             }
           ]

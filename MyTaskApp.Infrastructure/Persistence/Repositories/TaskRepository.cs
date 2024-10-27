@@ -59,9 +59,9 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
             return task;
         }
 
-        public Task SaveChangesAsync()
+        public async Task SaveChangesAsync()
         {
-            throw new NotImplementedException();
+            await _context.SaveChangesAsync();
         }
     }
 }

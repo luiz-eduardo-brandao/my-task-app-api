@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyTaskApp.API.Models;
+using MyTaskApp.Application.Interfaces;
 using MyTaskApp.Core.Entities;
 using MyTaskApp.Core.Repositories;
 
@@ -9,10 +10,12 @@ namespace MyTaskApp.API.Controllers
     [ApiController]
     public class TasksController : ControllerBase
     {
+        private readonly ITaskService _taskService;
         private readonly ITaskRepository _repository;
 
-        public TasksController(ITaskRepository repository)
+        public TasksController(ITaskService taskService, ITaskRepository repository)
         {
+            _taskService = taskService;
             _repository = repository;
         }
 
@@ -52,5 +55,36 @@ namespace MyTaskApp.API.Controllers
 
             return CreatedAtAction(nameof(GetById), new { id = idTask }, inputModel);
         }
+
+        [HttpPut("start/{idTask}")]
+        public async Task<IActionResult> Start(int idTask)
+        {
+            try
+            {
+                await _taskService.StartAsync(idTask);
+
+                return NoContent();
+            }
+            catch (Exception ex) 
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut("finish/{idTask}")]
+        public async Task<IActionResult> Finish(int idTask)
+        {
+            try
+            {
+                await _taskService.FinishAsync(idTask);
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 }
