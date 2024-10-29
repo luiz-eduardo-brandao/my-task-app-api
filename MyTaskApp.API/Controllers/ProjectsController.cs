@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MyTaskApp.API.Models;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MyTaskApp.Application.InputModels;
 using MyTaskApp.Application.Interfaces;
 using MyTaskApp.Core.Entities;
@@ -8,6 +8,7 @@ using MyTaskApp.Core.Repositories;
 namespace MyTaskApp.API.Controllers
 {
     [Route("api/projects")]
+    [Authorize]
     [ApiController]
     public class ProjectsController : ControllerBase
     {

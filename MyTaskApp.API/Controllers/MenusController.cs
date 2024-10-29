@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MyTaskApp.Core.Repositories;
 
 namespace MyTaskApp.API.Controllers
 {
     [Route("api/menus")]
+    [Authorize]
     [ApiController]
     public class MenusController : ControllerBase
     {

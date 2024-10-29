@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "inputModel",
-        "Type": "MyTaskApp.API.Models.CreateProjectInputModel",
+        "Type": "MyTaskApp.Application.InputModels.CreateProjectInputModel",
         "IsRequired": true
       }
     ],
@@ -103,7 +103,7 @@
     "Parameters": [
       {
         "Name": "inputModel",
-        "Type": "MyTaskApp.API.Models.CreateTaskInputModel",
+        "Type": "MyTaskApp.Application.InputModels.CreateTaskInputModel",
         "IsRequired": true
       }
     ],
@@ -193,7 +193,7 @@
     "Parameters": [
       {
         "Name": "inputModel",
-        "Type": "MyTaskApp.API.Models.CreateUserInputModel",
+        "Type": "MyTaskApp.Application.InputModels.CreateUserInputModel",
         "IsRequired": true
       }
     ],
@@ -210,6 +210,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyTaskApp.API.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/users/login",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inputModel",
+        "Type": "MyTaskApp.Application.InputModels.LoginUserInputModel",
         "IsRequired": true
       }
     ],

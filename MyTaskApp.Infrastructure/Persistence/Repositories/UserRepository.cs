@@ -73,9 +73,13 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
             return user;
         }
 
-        public Task<User> GetUserByEmailAndPasswordAsync(string email, string passwordHash)
+        public async Task<User> GetUserByEmailAndPasswordAsync(string email, string passwordHash)
         {
-            throw new NotImplementedException();
+            var user = await _context
+                .Users
+                .SingleOrDefaultAsync(u => u.Email == email && u.Password == passwordHash);
+
+            return user;
         }
 
         public Task SaveChangesAsync()

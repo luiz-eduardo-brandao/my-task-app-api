@@ -1,4 +1,4 @@
-﻿namespace MyTaskApp.API.Models
+﻿namespace MyTaskApp.Application.InputModels
 {
     public class CreateTaskInputModel
     {

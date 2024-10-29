@@ -1,6 +1,6 @@
 ﻿using MyTaskApp.Core.Enums;
 
-namespace MyTaskApp.API.Models
+namespace MyTaskApp.Application.InputModels
 {
     public class CreateProjectInputModel
     {

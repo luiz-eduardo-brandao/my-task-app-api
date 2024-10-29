@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "7jSu9NUDl8g=",
+  "dgSpecHash": "zha8Ds62GPs=",
   "success": true,
   "projectFilePath": "C:\\edu\\studies\\MyTaskApp\\MyTaskApp.Application\\MyTaskApp.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Luiz Brandão\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Luiz Brandão\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Luiz Brandão\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Luiz Brandão\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": [
     {
       "code": "NU1803",

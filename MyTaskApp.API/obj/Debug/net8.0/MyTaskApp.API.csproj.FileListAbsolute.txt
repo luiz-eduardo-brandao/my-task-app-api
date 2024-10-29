@@ -151,3 +151,7 @@ C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MyTaskApp.Core.pdb
 C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MyTaskApp.Infrastructure.pdb
 C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MyTaskApp.Application.dll
 C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MyTaskApp.Application.pdb
+C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MediatR.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\edu\studies\MyTaskApp\MyTaskApp.API\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

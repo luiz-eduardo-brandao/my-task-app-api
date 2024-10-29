@@ -1,38 +1,24 @@
-using Microsoft.EntityFrameworkCore;
-using MyTaskApp.Application.Interfaces;
-using MyTaskApp.Application.Services;
-using MyTaskApp.Core.Repositories;
-using MyTaskApp.Infrastructure.Persistence;
-using MyTaskApp.Infrastructure.Persistence.Repositories;
-using System.Text.Json.Serialization;
+using MyTaskApp.API.Modules;
+using MyTaskApp.Application;
+using MyTaskApp.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
 
 builder.Services.AddCors();
 
 builder.Services.AddControllers();
-   // .AddJsonOptions(x =>
-   //x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<MyTaskAppDbContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("MyTaskApp"));
-    //options.UseInMemoryDatabase("MyTaskApp")
-});
+builder.Services.AddSwagger();
 
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
-builder.Services.AddScoped<ITaskRepository, TaskRepository>();
-builder.Services.AddScoped<IMenuRepository, MenuRepository>();
+builder.Services.AddAuthentication(builder.Configuration);
 
-builder.Services.AddScoped<IProjectService, ProjectService>();
-builder.Services.AddScoped<ITaskService, TaskService>();
+builder.Services.AddDataContext(builder.Configuration);
+
+builder.Services.AddInfrastructure();
+
+builder.Services.AddApplication();
 
 var app = builder.Build();
 
@@ -44,6 +30,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
