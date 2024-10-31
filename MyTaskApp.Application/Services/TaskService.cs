@@ -1,4 +1,5 @@
-﻿using MyTaskApp.Application.Interfaces;
+﻿using MyTaskApp.Application.InputModels;
+using MyTaskApp.Application.Interfaces;
 using MyTaskApp.Core.Repositories;
 
 namespace MyTaskApp.Application.Services
@@ -10,6 +11,15 @@ namespace MyTaskApp.Application.Services
         public TaskService(ITaskRepository repository)
         {
             _repository = repository;
+        }
+
+        public async Task UpdateAsync(UpdateTaskInputModel inputModel)
+        {
+            var task = await _repository.GetByIdAsync(inputModel.Id);
+
+            task.Update(inputModel.Title, inputModel.Description);
+
+            await _repository.SaveChangesAsync();
         }
 
         public async Task StartAsync(int idTask)
@@ -26,6 +36,15 @@ namespace MyTaskApp.Application.Services
             var task = await _repository.GetByIdAsync(idTask);
 
             task.Finish();
+
+            await _repository.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(int idTask)
+        {
+            var task = await _repository.GetByIdAsync(idTask);
+
+            task.Delete();
 
             await _repository.SaveChangesAsync();
         }

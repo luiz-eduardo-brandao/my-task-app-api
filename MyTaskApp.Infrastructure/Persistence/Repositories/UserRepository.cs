@@ -27,8 +27,8 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
         {
             var user = await _context
                 .Users
-                .Include(u => u.Projects)
-                    .ThenInclude(p => p.Tasks)
+                //.Include(u => u.Projects)
+                //    .ThenInclude(p => p.Tasks)
                 .Select(u => new UserDTO
                 {
                     Id = u.Id,
@@ -36,30 +36,31 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
                     ProfileImage = u.ProfileImage,
                     Email = u.Email,
                     Role = u.Role,
-                    Projects = u.Projects.Where(p => p.Active)
-                        .Select(p => new ProjectDTO { 
-                            Id = p.Id,
-                            Title = p.Title,
-                            Description = p.Description,
-                            IdUser = u.Id,
-                            UserName = u.FullName,
-                            CreatedAt = p.CreatedAt,
-                            Image = p.ImageUrl,
-                            Level = (int)p.Level,
-                            Tasks = p.Tasks
-                                .Select(t => new TaskDTO
-                                {
-                                    Id = t.Id,
-                                    Title = t.Title,
-                                    Description = t.Description,
-                                    IdUser = t.IdUser,
-                                    IdProject = t.IdProject,
-                                    ProjectTitle = p.Title,
-                                    TimeConsumed = ""
-                                })
-                                .ToList()
-                        })
-                        .ToList(),
+                    //Projects = u.Projects.Where(p => p.Active)
+                    //    .Select(p => new ProjectDTO { 
+                    //        Id = p.Id,
+                    //        Title = p.Title,
+                    //        Description = p.Description,
+                    //        IdUser = u.Id,
+                    //        UserName = u.FullName,
+                    //        CreatedAt = p.CreatedAt,
+                    //        Image = p.ImageUrl,
+                    //        Level = (int)p.Level,
+                    //        Tasks = p.Tasks
+                    //            .Where(t => t.Active)
+                    //            .Select(t => new TaskDTO
+                    //            {
+                    //                Id = t.Id,
+                    //                Title = t.Title,
+                    //                Description = t.Description,
+                    //                IdUser = t.IdUser,
+                    //                IdProject = t.IdProject,
+                    //                ProjectTitle = p.Title,
+                    //                TimeConsumed = ""
+                    //            })
+                    //            .ToList()
+                    //    })
+                    //    .ToList(),
                 })
                 .SingleOrDefaultAsync(u => u.Id == id);
 

@@ -36,7 +36,36 @@ namespace MyTaskApp.Infrastructure.Auth
             }
         }
 
-        public string GenerateJwtToken(string email, string role)
+        public ClaimsPrincipal? ValidateToken(string token)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+
+            var issuer = _configuration["Jwt:Issuer"];
+            var audience = _configuration["Jwt:Audience"];
+            var key = _configuration["Jwt:Key"];
+
+            try
+            {
+                var principal = tokenHandler.ValidateToken(token, new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidIssuer = issuer,
+                    ValidAudience = audience,
+                    ClockSkew = TimeSpan.Zero // Sem atraso para expirado
+                }, out var validatedToken);
+
+                return principal;
+            }
+            catch
+            {
+                return null; // Token é inválido
+            }
+        }
+
+        public string GenerateJwtToken(string email, string role, bool refreshToken = false)
         {
             var issuer = _configuration["Jwt:Issuer"];
             var audience = _configuration["Jwt:Audience"];
@@ -51,10 +80,15 @@ namespace MyTaskApp.Infrastructure.Auth
                 new Claim(ClaimTypes.Role, role)
             };
 
+            var expiresDate = DateTime.Now.AddMinutes(30);
+
+            if (refreshToken)
+                expiresDate = expiresDate.AddMinutes(60);
+
             var token = new JwtSecurityToken(
                 issuer: issuer,
                 audience: audience,
-                expires: DateTime.Now.AddMinutes(30),
+                expires: expiresDate,
                 signingCredentials: credentials,
                 claims: claims);
 

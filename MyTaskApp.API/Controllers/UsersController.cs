@@ -80,5 +80,26 @@ namespace MyTaskApp.API.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpPut("verifyToken")]
+        [AllowAnonymous]
+        public async Task<IActionResult> VerifyToken([FromBody] VerifyTokenInputModel inputModel)
+        {
+            try 
+            {
+                if (inputModel.IdUser == 0) return Unauthorized();
+
+                var result = await _userService.ValidateToken(inputModel);
+
+                if (result == null)
+                    return NoContent();
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Unauthorized(ex.Message);
+            }
+        }
     }
 }

@@ -9,6 +9,7 @@
         public int IdProject { get; set; }
         public string ProjectTitle { get; set; }
         public string TimeConsumed { get; set; }
+        public DateTime CreatedAt { get; set; }
         public DateTime? StartedAt { get; set; }
         public DateTime? FinishedAt { get; set; }
     }

@@ -37,6 +37,14 @@ namespace MyTaskApp.API.Controllers
             return Ok(result);
         }
 
+        [HttpGet("user/{idUser}")]
+        public async Task<IActionResult> GetByUSerId(int idUser)
+        {
+            var result = await _repository.GetByUserIdAsync(idUser);
+
+            return Ok(result);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] CreateProjectInputModel inputModel)
         {

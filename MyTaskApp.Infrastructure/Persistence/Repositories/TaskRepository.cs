@@ -31,6 +31,7 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
         {
             var task = await _context
                 .Tasks
+                .Where(t => t.Active)
                 .SingleOrDefaultAsync(u => u.Id == id);
 
             return task;
@@ -41,6 +42,7 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
             var task = await _context
                 .Tasks
                 .Include(t => t.Project)
+                .Where(t => t.Active)
                 .Select(t => new TaskDTO
                 {
                     Id = t.Id,
@@ -50,6 +52,7 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
                     IdProject = t.IdProject,
                     ProjectTitle = t.Project.Title,
                     TimeConsumed = "",
+                    CreatedAt = t.CreatedAt,
                     StartedAt = t.StartedAt,
                     FinishedAt = t.FinishedAt
                 })

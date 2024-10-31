@@ -12,6 +12,8 @@ namespace MyTaskApp.Core.Entities
             Description = description;
             IdUser = idUser;
             IdProject = idProject;
+
+            Active = true;
             Status = TaskStatusEnum.Created;
         }
 
@@ -29,6 +31,15 @@ namespace MyTaskApp.Core.Entities
         public TaskStatusEnum Status { get; set; }
         public DateTime? StartedAt { get; set; }
         public DateTime? FinishedAt { get; set; }
+        public bool Active { get; set; }
+
+        public void Update(string title, string descrption)
+        {
+            Title = title;
+            Description = descrption;
+        }
+
+        public void Delete() => Active = false;
 
         public void Start()
         {

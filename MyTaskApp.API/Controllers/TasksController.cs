@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using MyTaskApp.Application.InputModels;
 using MyTaskApp.Application.Interfaces;
+using MyTaskApp.Application.Services;
 using MyTaskApp.Core.Entities;
 using MyTaskApp.Core.Repositories;
 
@@ -56,6 +57,37 @@ namespace MyTaskApp.API.Controllers
                 return BadRequest();
 
             return CreatedAtAction(nameof(GetById), new { id = idTask }, inputModel);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Put([FromBody] UpdateTaskInputModel inputModel)
+        {
+            try
+            {
+                await _taskService.UpdateAsync(inputModel);
+
+                return CreatedAtAction(nameof(GetById), new { id = inputModel.Id }, inputModel);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                await _taskService.DeleteAsync(id);
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpPut("start/{idTask}")]

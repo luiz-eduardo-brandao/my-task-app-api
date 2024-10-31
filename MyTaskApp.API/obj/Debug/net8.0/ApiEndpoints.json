@@ -84,6 +84,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MyTaskApp.API.Controllers.ProjectsController",
+    "Method": "GetByUSerId",
+    "RelativePath": "api/projects/user/{idUser}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUser",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MyTaskApp.API.Controllers.TasksController",
     "Method": "GetAll",
     "RelativePath": "api/tasks",
@@ -111,9 +127,41 @@
   },
   {
     "ContainingType": "MyTaskApp.API.Controllers.TasksController",
+    "Method": "Put",
+    "RelativePath": "api/tasks",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inputModel",
+        "Type": "MyTaskApp.Application.InputModels.UpdateTaskInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyTaskApp.API.Controllers.TasksController",
     "Method": "GetById",
     "RelativePath": "api/tasks/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyTaskApp.API.Controllers.TasksController",
+    "Method": "Delete",
+    "RelativePath": "api/tasks/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -226,6 +274,22 @@
       {
         "Name": "inputModel",
         "Type": "MyTaskApp.Application.InputModels.LoginUserInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyTaskApp.API.Controllers.UsersController",
+    "Method": "VerifyToken",
+    "RelativePath": "api/users/verifyToken",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inputModel",
+        "Type": "MyTaskApp.Application.InputModels.VerifyTokenInputModel",
         "IsRequired": true
       }
     ],

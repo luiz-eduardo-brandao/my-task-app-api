@@ -28,10 +28,34 @@ namespace MyTaskApp.Application.Services
             var userDTO = await _userRepository.GetByIdAsync(user.Id);
 
             var token = _authService.GenerateJwtToken(inputModel.Email, user.Role);
+            var refreshToken = _authService.GenerateJwtToken(inputModel.Email, user.Role, true);
 
             userDTO.Token = token;
+            userDTO.RefreshToken = refreshToken;
 
             return userDTO;
+        }
+
+        public async Task<TokenDTO?> ValidateToken(VerifyTokenInputModel inputModel)
+        {
+            var accessTokenPrincipal = _authService.ValidateToken(inputModel.Token);
+
+            if (accessTokenPrincipal != null)
+                return null;
+            
+            var refreshTokenPrincipal = _authService.ValidateToken(inputModel.RefreshToken);
+
+            if (refreshTokenPrincipal != null)
+            {
+                var user = await _userRepository.GetByIdAsync(inputModel.IdUser);
+
+                var token = _authService.GenerateJwtToken(user.Email, user.Role);
+                var refreshToken = _authService.GenerateJwtToken(user.Email, user.Role, true);
+
+                return new TokenDTO(token, refreshToken);
+            }
+
+            throw new Exception("Token inválido ou expirado. Favor realizar login novamente");
         }
     }
 }
