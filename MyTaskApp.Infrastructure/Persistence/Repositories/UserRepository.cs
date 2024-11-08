@@ -2,7 +2,6 @@
 using MyTaskApp.Core.DTOs;
 using MyTaskApp.Core.Entities;
 using MyTaskApp.Core.Repositories;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace MyTaskApp.Infrastructure.Persistence.Repositories
 {
@@ -83,9 +82,9 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
             return user;
         }
 
-        public Task SaveChangesAsync()
+        public async Task SaveChangesAsync()
         {
-            throw new NotImplementedException();
+            await _context.SaveChangesAsync();
         }
     }
 }

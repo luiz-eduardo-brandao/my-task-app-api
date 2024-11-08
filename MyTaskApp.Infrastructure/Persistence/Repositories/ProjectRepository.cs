@@ -55,7 +55,7 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
                     Description = p.Description,
                     IdUser = p.User.Id,
                     UserName = p.User.FullName,
-                    CreatedAt = p.CreatedAt,
+                    CreatedAt = p.CreatedAt.ToString("G"),
                     Image = p.ImageUrl,
                     Level = (int)p.Level,
                     Tasks = p.Tasks
@@ -69,8 +69,9 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
                             IdProject = t.IdProject,
                             ProjectTitle = p.Title,
                             TimeConsumed = "",
-                            StartedAt = t.StartedAt,
-                            FinishedAt = t.FinishedAt,
+                            CreatedAt = t.CreatedAt.ToString("G"),
+                            StartedAt = t.StartedAt.HasValue ? t.StartedAt.Value.ToString("G") : null,
+                            FinishedAt = t.FinishedAt.HasValue ? t.FinishedAt.Value.ToString("G") : null
                         })
                         .ToList()
                 })

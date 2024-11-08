@@ -39,7 +39,7 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
 
         public async Task<List<TaskDTO>> GetByUserIdAsync(int idUser)
         {
-            var task = await _context
+            var tasks = await _context
                 .Tasks
                 .Include(t => t.Project)
                 .Where(t => t.Active)
@@ -52,14 +52,14 @@ namespace MyTaskApp.Infrastructure.Persistence.Repositories
                     IdProject = t.IdProject,
                     ProjectTitle = t.Project.Title,
                     TimeConsumed = "",
-                    CreatedAt = t.CreatedAt,
-                    StartedAt = t.StartedAt,
-                    FinishedAt = t.FinishedAt
+                    CreatedAt = t.CreatedAt.ToString("G"),
+                    StartedAt = t.StartedAt.HasValue ? t.StartedAt.Value.ToString("G") : null,
+                    FinishedAt = t.FinishedAt.HasValue ? t.FinishedAt.Value.ToString("G") : null
                 })
                 .Where(u => u.IdUser == idUser)
                 .ToListAsync();
 
-            return task;
+            return tasks;
         }
 
         public async Task SaveChangesAsync()
